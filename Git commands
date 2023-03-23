@@ -1,0 +1,60 @@
+  clear
+    2  apt update -y
+    3  clear
+    4  history
+    5  git
+    6  clear
+    7  git version
+    8  git clone https://github.com/cechydraju/intellipaat-march-2023.git
+    9  ls -l
+   10  cd intellipaat-march-2023/
+   11  ls -l
+   12  cd ..
+   13  ls -l
+   14  cd intellipaat-march-2023/
+   15  ls -la
+   16  cd ..
+   17  pwd
+   18  ls -la
+   19  cd intellipaat-march-2023/
+   20  ls -la
+   21  cd ..
+   22  clear
+   23  pwd
+   24  mkdir project1
+   25  cd project1
+   26  ls -la
+   27  git init
+   28  ls -la
+   29  clear
+   30  ls -la
+   31  touch file1.txt
+   32  vi file1.txt
+   33  cat file1.txt
+   34  ls -l
+   35  git add fiel1.txt
+   36  git status
+   37  git branch
+   38  git add file1.txt
+   39  ls -l
+   40  git status
+   41  clear
+   42  git ls-files
+   43  git status
+   44  git commit -m " first commit"
+   45  git status
+   46  ls -l
+   47  git ls-files
+   48  git status
+   49  git log
+   50  git branch
+   51  git remote -v
+   52  git remote add origin https://github.com/cechydraju/demo-repo.git
+   53  git remote -v
+   54  git push origin master
+   55  ls -la
+   56  cd project1
+   57  ls -la
+   58  ls -l
+   59  git branch
+   60  git push origin
